@@ -99,6 +99,20 @@
                     {{ __('Profile') }}
                 </x-responsive-nav-link>
 
+                <!-- Generar claves -->
+                @can('generar claves')
+                    <x-responsive-nav-link :href="route('keys')" :active="request()->routeIs('')">
+                        {{ __('Generación de claves') }}
+                    </x-responsive-nav-link>
+                @endcan()
+                    
+                <!-- Votar -->
+                @can('votar')
+                    <x-responsive-nav-link :href="route('keys.votar')" :active="request()->routeIs('')">
+                        {{ __('Encuesta') }}
+                    </x-responsive-nav-link>
+                @endcan
+
                 <!-- Authentication -->
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
