@@ -66,7 +66,7 @@
             </label>
 
             <label>Sube tu llave privada:</label>
-            <input type="file" name="private_key" accept=".pem" required>
+            <input type="file" name="private_key"  required>
 
             <button class="btn-encuesta" type="submit">Enviar respuestas</button>
             </form>
