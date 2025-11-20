@@ -31,10 +31,7 @@
             <label class="opcion">
                 <input type="radio" name="actividad" value="informativas"> Asistir solo a actividades informativas o de organización estudiantil.
             </label>
-            <label class="opcion">
-                <input type="radio" name="actividad" value="otra"> Otra (especificar):
-            </label>
-            <input type="text" id="otraActividad" name="otraActividad" placeholder="Escribe tu opción" class="input-opcional">
+
 
             <!-- Sección 3 -->
             <h2>Duración del paro</h2>
@@ -51,14 +48,7 @@
             <label class="opcion">
                 <input type="radio" name="duracion" value="hasta_demanda"> Hasta que se cumplan las demandas
             </label>
-            <label class="opcion">
-                <input type="radio" name="duracion" value="otra"> Otro (especificar):
-            </label>
-            <input type="text" id="otraDuracion" name="otraDuracion" placeholder="Escribe tu opción" class="input-opcional">
-
-            <!-- Sección 4 -->
-            <h2>Comentarios</h2>
-            <textarea name="comentarios" id="comentarios" rows="4" placeholder="¿Quieres agregar alguna propuesta o comentario sobre el paro? (opcional)"></textarea>
+ 
 
             <!-- Sección 5 -->
             <label class="confirmacion">
